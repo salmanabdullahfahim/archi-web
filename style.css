@@ -134,7 +134,7 @@ header {
     font-weight: 700;
     font-size: 45px;
     padding: 24px 10px;
-    border-left: 5px solid  #FF900E;
+    border-left: 5px solid #FF900E;
 
 }
 
@@ -233,6 +233,10 @@ article {
     cursor: pointer;
     transition: all 0.55s ease;
 }
+.extra{
+    padding-left: 60px;
+    padding-right: 70px;
+}
 
 
 .fact>p {
@@ -241,17 +245,59 @@ article {
     color: #727272;
 
 }
-.fact:hover{
-    background-color:#FF900E;
+
+.fact:hover {
+    background-color: #FF900E;
     color: white;
     transform: translateY(-10px);
+
+}
+
+
+/* --------------------------------------------
+---------our engineer section design-----------  */
+
+
+.our-engineers{
+    margin-top: 100px;
+}
+.our-engineers>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 18px;
+}
+
+.our-engineers>p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+
+.engineer>img{
+    height: 250px;
+    width: 250px;
+}
+.engineers{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.engineer{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 18%);
+    border-radius: 5px;
+    padding: 10px;
     
 }
 
 /* -----------------------------------
 ------------footer design------------ */
 .footer-container {
-    margin-top: 160px;
+    margin-top: 110px;
 }
 
 .footer-container>h2 {
